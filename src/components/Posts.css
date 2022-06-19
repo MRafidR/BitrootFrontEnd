@@ -1,0 +1,15 @@
+.p-div{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height:screen;
+    width: screen;
+    /* background-color: aqua; */
+    padding: 80px 250px ;
+}
+@media (max-width: 800px){
+    .p-div{
+        padding: 20px 20px;
+    }
+}

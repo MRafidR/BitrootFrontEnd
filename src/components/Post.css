@@ -1,0 +1,80 @@
+.c-div{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+    height: 330px;
+    width: 400px;
+    background-color: azure;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    
+}
+
+.img-section{
+    width: 100%;
+    position: relative;
+    
+    
+}
+
+.img-section img {
+    display: block;
+    object-fit: cover;
+    width:100%;
+    height: 50%;
+    background: black;
+    
+}
+
+.overlay{
+    opacity: 0;
+    display: none;
+    transition: 1.3s ease;
+    
+}
+
+.img-section:hover .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width:100%;
+    height: 50%;
+    background-image: none;
+    background-color: black;
+    opacity: 0.4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s ease;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;  
+}
+.overlay_text{
+    opacity: 1;
+}
+
+.title {
+   padding: 20px 20px;
+}
+
+.title h2{
+    font-weight: 900;
+    font-size: 1.2rem;
+ }
+.title p{
+    padding: 10px 0px;
+    font-size: 10px;
+    font-weight: 300;
+    color: gray;
+
+}
+.author-date{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
