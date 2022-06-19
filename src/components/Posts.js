@@ -27,13 +27,13 @@ const Posts = () => {
       {modalClick && (
         <Modal>
           <ModalPost
-              key={posts[0].id}
-              id={posts[0].id}
-              title={posts[0].title}
-              description={posts[0].content}
-              imgThumb={posts[0].thumbnail.large}
-              author={posts[0].author.name}
-              date={posts[0].date}
+              key={posts[key].id}
+              id={posts[key].id}
+              title={posts[key].title}
+              description={posts[key].content}
+              imgThumb={posts[key].thumbnail.large}
+              author={posts[key].author.name}
+              date={posts[key].date}
             />
         </Modal>
       )}
@@ -48,7 +48,7 @@ const Posts = () => {
               imgThumb={item.thumbnail.small}
               author={item.author.name}
               date={item.date}
-              onClick={modalHandler}
+              onClick={() => modalHandler(posts.indexOf(item))}
             />
           ))}
         </div>
