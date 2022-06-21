@@ -6,7 +6,7 @@ const ModalPost = (props) => {
     <div className="c-div_modal">
       <div className="img-section_modal">
         <img src={props.imgThumb} alt="/"></img>
-        <div className="title">
+        <div className="title_modal">
           <h2>{props.title}</h2>
           <p>{props.description}</p>
           <div className="author-date">

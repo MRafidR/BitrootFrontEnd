@@ -1,14 +1,13 @@
 .c-div_modal{
     display: flex;
-    margin: 10px;
+    margin: 0px;
     justify-content: space-between;
-    height: 330px;
-    width: 400px;
+    height: 400px;
+    width: 100%;
     background-color: azure;
     border-radius: 5px;
     border: 1px solid lightgray;
-    
-    
+    justify-content: center;
 }
 
 .img-section_modal{
@@ -27,18 +26,17 @@
     
 }
 
-
-.title {
+.title_modal {
    padding: 20px 20px;
 }
 
-.title h2{
+.title_modal h2{
     font-weight: 900;
-    font-size: 1.2rem;
+    font-size: 2rem;
  }
-.title p{
+.title_modal p{
     padding: 10px 0px;
-    font-size: 10px;
+    font-size: 16px;
     font-weight: 300;
     color: gray;
 
