@@ -25,7 +25,7 @@ const Posts = () => {
   return (
     <>
       {modalClick && (
-        <Modal>
+        <Modal onClick={modalHandler}>
           <ModalPost
               key={posts[key].id}
               id={posts[key].id}

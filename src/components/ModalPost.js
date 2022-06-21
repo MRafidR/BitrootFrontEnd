@@ -3,8 +3,8 @@ import "./ModalPost.css";
 
 const ModalPost = (props) => {
   return (
-    <div className="c-div">
-      <div className="img-section">
+    <div className="c-div_modal">
+      <div className="img-section_modal">
         <img src={props.imgThumb} alt="/"></img>
         <div className="title">
           <h2>{props.title}</h2>

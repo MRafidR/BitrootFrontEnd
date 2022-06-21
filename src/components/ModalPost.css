@@ -1,4 +1,4 @@
-.c-div{
+.c-div_modal{
     display: flex;
     margin: 10px;
     justify-content: space-between;
@@ -8,16 +8,17 @@
     border-radius: 5px;
     border: 1px solid lightgray;
     
+    
 }
 
-.img-section{
+.img-section_modal{
     width: 100%;
     position: relative;
     
     
 }
 
-.img-section img {
+.img-section_modal img {
     display: block;
     object-fit: cover;
     width:100%;
@@ -25,7 +26,6 @@
     background: black;
     
 }
-
 
 
 .title {
